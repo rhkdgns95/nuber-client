@@ -1,9 +1,5 @@
-// and extend them!
-export interface IThemeInterface {
-borderRadius: string
+const theme = {
+    blueColor: "#3498db"
+}
 
-colors: {
-    main: string
-    secondary: string
-}
-}
+export default theme;
