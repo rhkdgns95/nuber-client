@@ -13,7 +13,6 @@ import {gql} from "apollo-boost";
 // 바로 apollo.ts에서 auth부분이다.
 // 원래는 API로 보내서 resolvers에서 구현한것을 확인할테지만, 
 // 우리는 client측에서 확인을 원하므로 API에 보내지않고 @client입력후 캐쉬에 보내게된다.
-
 export const IS_LOGGED_IN = gql`
     {
         auth {

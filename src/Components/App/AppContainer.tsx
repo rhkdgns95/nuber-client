@@ -10,6 +10,7 @@ const Container = styled.div`
     height:100vh;
     background: ${prop => prop.theme.blueColor};
 `;
+
 const AppContainer = ({data}) => (
     <ThemeProvider theme={theme}>
         <Container>
